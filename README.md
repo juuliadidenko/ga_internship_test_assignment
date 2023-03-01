@@ -1,6 +1,7 @@
 1. Какие шаги ты бы предпринял, если бы пользователь сказал, что API возвращает ему ошибку 500?
 
-**Ответ:**- Воспроизвести ситуацию, в которой возникает ошибка. Если всё работает нормально, попросить пользователя перезагрузить страницу, почистить кэш и куки
+**Ответ:**  
+- Воспроизвести ситуацию, в которой возникает ошибка. Если всё работает нормально, попросить пользователя перезагрузить страницу, почистить кэш и куки
 
 - Посмотреть логи сервера (error log), если причина - баг в приложении, устранить баг (откатить приложение до стабильной версии, если баг обнаружен в последних изменениях)
 
@@ -24,15 +25,15 @@ def execute_handlers(handlers):
         handler()
 ```
 
-**Ответ:** [2_refactor_handlers.py]()
+**Ответ:** [2_refactor_handlers](https://github.com/juuliadidenko/ga_internship_test_assignment/blob/main/2_refactor_handlers.py)
 
 3. Сколько HTML-тегов в коде главной страницы сайта greenatom.ru? Сколько из них содержит атрибуты? Напиши скрипт на Python, который выводит ответы на вопросы выше.
 
-**Ответ:** [3_tag_counter.py]()
+**Ответ:** [3_tag_counter](https://github.com/juuliadidenko/ga_internship_test_assignment/blob/main/3_tag_counter.py)
 
 4. Напиши функцию на Python, которая возвращает текущий публичный IP-адрес компьютера (например, с использованием сервиса ifconfig.me).
 
-**Ответ:** [4_public_ip.py]()
+**Ответ:** [4_public_ip](https://github.com/juuliadidenko/ga_internship_test_assignment/blob/main/4_public_ip.py)
 
 5. Напиши функцию на Python, выполняющую сравнение версий. Условия:
 - Return -1 if version A is older than version B
@@ -40,4 +41,4 @@ def execute_handlers(handlers):
 - Return 1 if version A is newer than version B
 - Each subsection is supposed to be interpreted as a number, therefore 1.10 > 1.1.
 
-**Ответ:** [5_compare_version.py]()
+**Ответ:** [5_compare_version](https://github.com/juuliadidenko/ga_internship_test_assignment/blob/main/5_compare_version.py)
